@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="Djupviken_style.css"> 
+    </head>
+
+    <body>
+      <header>
+        <h1>Djupviks Hamn</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="Startsida.html">Startsida</a></li>
+          <li><a href="Turistmal.html">Turistmål</a></li>
+          <li><a href="Medlemsinfo.html">Medlemsinfo</a></li>
+          <li><a href="Gastplats.html">Gästplats</a></li>
+          <li><a href="Kontakt.html">Kontakt</a></li>
+          <li><a href="English.html">English</a></li>
+        </ul>
+      </nav>
+        <main>
+
+            <h2>
+                Kontaktuppgifter
+            </h2>
+            <p>
+                Hamnfogde Bo Lautin, mobil 0707-920310
+            </p>
+            <p>
+                Djupviks hamnförening <br>
+                c/o Ekholm <br>
+                Eksta Hägur 170 <br>
+                623 54 Klintehamn <br>
+            </p>
+            <h3>
+                Kontaktformulär
+            </h3>
+
+
+            <form method="post" action="#"> <!--För att skapa formulär-->
+                <fieldset>
+           
+                    <p>
+                        <label>Rubrik för ärendet:</label>
+                        <input type="text" id="Rubrik" name="Rubrik"/>
+                    </p>
+                    <p>
+                        
+                        <label>Beskriv ditt ärende:</label>
+                        <textarea name="meddelande" rows="10" cols="30">
+                        </textarea> 
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Vad gäller ärendet?</legend> <!--För att skapa en rullista med flera alternativ där man kan välja ett-->
+                    <select name="Välj:">
+                        <option value="Båtplats">Båtplats</option>
+                        <option value="Medlem">Medlem</option>
+                        <option value="Övrigt">Övrigt</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Hur vill du bli kontaktad?</legend> <!--För att skapa en rullista med flera alternativ där man kan välja ett-->
+                    <select name="Välj:">
+                        <option value="Mail">Mail</option>
+                        <option value="Telefon">Telefon</option>
+                        <option value="Inte alls">Inte alls</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Fyll i dina uppgifter:</legend> <!--För att skapa textfält där information kan skrivas in-->
+                    <p><label for="FirstName">Förnamn</label>
+                        <input type="text" id="FirstName" name="firstname"/>
+                    </p>
+                    <p><label for="LastName">Efternamn</label>
+                        <input type="text" id="LastName" name="lastname"/>
+                    </p>
+                    <p><label for="Phonenumber">Mobil:</label>
+                        <input type="tel" id="Phonenumber" name="phonenumber"/>
+                    </p>
+                    <p><label for="Epost">Epost:</label>
+                        <input type="text" id="Epost" name="epost"/>
+                    </p>
+                </fieldset>
+                <!--För att skapa en submit knapp-->
+                <p><input type="submit" value="Boka"/>
+                </p>
+                </form>
+
+        </main>
+    </body>
+</html>

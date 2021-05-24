@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,500;1,500&display=swap');
+
+/*Eric Meyers lobal reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+    font-size: 105%;
+}
+
+
+
+/*List in navigation*/
+nav ul{
+    font-size: 1.5rem;
+    padding: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Verdana, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    line-height: 1.2rem;
+    background-color: #57A12C;
+    background-color: #8a7d0f;
+    background-color: #196900;
+
+    background-color: #8a7d0f;
+   
+}
+
+main{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    text-align:center;
+    background-color: rgba(194, 223, 188, 0.8);
+}
+
+/*p in main*/
+main p{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+
+/*List in newsletter*/
+aside ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+/*h3 i newsletter*/
+aside h3{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+footer{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+
+table{
+    width:100%; 
+    margin-bottom: 2rem;
+    
+    background-color: rgba(194, 223, 188, 0.8);
+    color: black;
+    padding: 2rem;
+    border: double 3px rgb(6, 36, 0);
+
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+form {
+    line-height: 200%;
+}
+
+/*Rubrik i header*/
+h1{
+    font-family: 'Libre Franklin';
+    font-size: 4rem;
+    color: #0F1C8A;
+    font-weight: 500;
+    background-image: url(Djupvik_bilder/D-13_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+
+h2{
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f598a;
+}
+
+h3{
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #400f8a;
+}
+
+h4{
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h5{
+    font-size: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0F1C8A;
+    padding-bottom: 2rem;
+
+}
+
+/*Layout för länkar*/
+a{text-decoration: none;}
+a:link{color: #0F1C8A;}
+a:visited{color: rgb(71, 71, 71);}
+a:focus{
+    color: maroon; 
+    background-color: rgb(110, 199, 184);
+}
+a:hover{
+    color: maroon;
+    background-color: rgb(110, 199, 184);
+}
+a:active{
+    color: rgb(202, 0, 0);
+    background-color: rgb(173, 88, 88);
+}
+
+/*layout för 640px till 900px*/
+@media(min-width:640px) and (max-width:900px){
+    /*Rubrik i header*/
+    h1{
+        font-size: 3rem;
+    }
+
+    main p{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    table{
+        width:80%; 
+        margin-left:10%; 
+        margin-right:10%;
+    }
+
+    /*Newsletter*/
+    aside{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 70%;
+    }
+}
