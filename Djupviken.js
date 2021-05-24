@@ -10,7 +10,6 @@ function getData(){
 
 let t = document.getElementById("vader")
 
-
 let data = getData();
 data.then((data) => {
 
@@ -22,12 +21,8 @@ let kl = time.slice(11,19);
 
 let klTN = document.createTextNode("Klockan: " +kl);
 let dateTN = document.createTextNode("Datum: " +date);
-let temp = document.createTextNode(data.timeSeries[0].parameters[10].values[0] +"°C");
-
+let temp = document.createTextNode(data.timeSeries[3].parameters[10].values[0] +"°C");
 
 t.appendChild(temp);
-
-
-
 });
 
