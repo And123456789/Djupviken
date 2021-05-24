@@ -41,12 +41,7 @@ nav ul{
 body{
     font-family: Arial, Verdana, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     line-height: 1.2rem;
-    background-color: #57A12C;
     background-color: #8a7d0f;
-    background-color: #196900;
-
-    background-color: #8a7d0f;
-   
 }
 
 main{
@@ -113,7 +108,7 @@ h1{
     font-size: 4rem;
     color: #0F1C8A;
     font-weight: 500;
-    background-image: url(Djupvik_bilder/D-13_2.jpg);
+    background-image: url(D-13_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0;
